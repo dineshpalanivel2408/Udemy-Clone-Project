@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    gap: 5px;
+     border-bottom: solid black 1px;
+     align-items: center;
+}
+.navbar__s1__title{
+    padding: 10px;
+    color: blueviolet;
+}
+.navbar__s2{
+    padding: 20px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 1px;
+
+}
+.Categories p{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Sale-images img{
+    width: 100%;
+}
+.recommended{
+    padding: 20px;
+}
+.recommended__container{
+    margin-top: 1%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.course-card{
+    width: 200px;
+}
+.course-card img{
+    height: 50%;
+    width: 100%;
+}
+.topics{
+    padding: 20px;
+}
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px; 
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 20px;
+}
+.popular__container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 25%;
+    justify-content: space-between;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.footer__one{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.footer__two{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
